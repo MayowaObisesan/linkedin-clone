@@ -17,7 +17,7 @@ export const profileData = {
 
 function ProfileCard() {
     return (
-        <div className="profile-card-container max-w-60 bg-white pt-6 rounded-lg border">
+        <div className="profile-card-container w-60 max-w-60 bg-white pt-6 rounded-lg border">
             <div className="profile-bg-cover"></div>
             <div className="relative z-10 flex flex-row justify-center">
                 {profileData.dp}
