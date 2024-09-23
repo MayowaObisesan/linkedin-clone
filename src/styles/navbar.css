@@ -77,6 +77,10 @@
     padding: 6px 16px;
     opacity: 0.6;
     transition: opacity .1s ease-in;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar-items a:first-of-type {

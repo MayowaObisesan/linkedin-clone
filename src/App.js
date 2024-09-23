@@ -5,6 +5,8 @@ import 'boxicons'
 import ProfileCard from './components/ProfileCard';
 import CreatePost from './components/CreatePost';
 import Post from './components/Post';
+import RecommendationsCard from './components/Recommendations';
+import RightFooter from './components/RightFooter';
 
 const postData = [
   {
@@ -73,7 +75,10 @@ function App() {
 
         {/* The Right side of the body */}
         <div>
-          <ProfileCard />
+          <RecommendationsCard />
+          <RightFooter />
+
+          <div className='text-xs text-center'>LinkedIn Corporation © 2024</div>
         </div>
       </div>
     </div>
